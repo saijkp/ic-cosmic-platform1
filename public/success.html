@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Payment Success</title>
+</head>
+<body>
+  <h1>✨ Payment Successful!</h1>
+  <button id="view-report-btn">View My Report</button>
+  <script>
+    document.getElementById("view-report-btn").addEventListener("click", () => {
+      localStorage.setItem("iccoinPaid", "true");
+      window.location.href = "/";
+    });
+  </script>
+</body>
+</html>

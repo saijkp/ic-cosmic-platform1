@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding-top: 50px;
+}
+.hidden {
+  display: none;
+}
+button {
+  background: linear-gradient(45deg, #9f00ff, #ffcc00);
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #ffcc00;
+}
+button:hover {
+  box-shadow: 0 0 40px #ffcc00;
+}

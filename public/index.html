@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>IC Cosmic Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="starfield"></canvas>
+  <div id="welcome-screen" class="screen">
+    <h1>Reveal Your Archetype</h1>
+    <p>Start your cosmic journey by answering two questions.</p>
+    <button id="begin-quiz-btn">Begin Quiz</button>
+  </div>
+  <div id="quiz-screen" class="screen hidden">
+    <h2>Your Cosmic Quiz</h2>
+    <form id="quiz-form">
+      <p>You feel most powerful when…</p>
+      <label><input type="radio" name="q1" value="Warrior"> Taking action and leading</label>
+      <label><input type="radio" name="q1" value="Seeker"> Exploring the unknown</label>
+      <label><input type="radio" name="q1" value="Sage"> Understanding truth</label>
+      <label><input type="radio" name="q1" value="Creator"> Making something new</label>
+      <p>Your soul seeks…</p>
+      <label><input type="radio" name="q2" value="Warrior"> Victory and courage</label>
+      <label><input type="radio" name="q2" value="Seeker"> Spiritual answers</label>
+      <label><input type="radio" name="q2" value="Sage"> Wisdom and clarity</label>
+      <label><input type="radio" name="q2" value="Creator"> Creative expression</label>
+      <button type="submit">Reveal My Archetype</button>
+    </form>
+  </div>
+  <div id="result-screen" class="screen hidden">
+    <h2>✨ Your Archetype: <span id="archetype-name"></span></h2>
+    <p id="archetype-description"></p>
+    <button id="unlock-btn" class="hidden">✨ Unlock Full Report with IC Coin</button>
+  </div>
+  <audio id="cosmic-music" src="cosmic-music.mp3" loop></audio>
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="stars.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

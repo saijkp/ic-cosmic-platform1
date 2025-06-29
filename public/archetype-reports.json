@@ -1,0 +1,18 @@
+{
+  "Warrior": {
+    "shortDescription": "You are a Warrior – bold, brave and full of purpose.",
+    "fullReport": "As a Warrior, you are driven by action, justice, and fierce love. Your power lies in defending truth and inspiring movement. You thrive in challenge and uplift others with your courage."
+  },
+  "Seeker": {
+    "shortDescription": "You are a Seeker – always questing for truth and spirit.",
+    "fullReport": "As a Seeker, you are an adventurer of the inner and outer worlds. You long to explore the mysteries of life and bring back sacred insights. Your presence ignites the call to remember who we truly are."
+  },
+  "Sage": {
+    "shortDescription": "You are a Sage – calm, wise and deeply knowing.",
+    "fullReport": "As a Sage, you embody stillness and perspective. Your soul came here to witness, understand, and guide through timeless wisdom. You reveal the light in complexity and offer truth with compassion."
+  },
+  "Creator": {
+    "shortDescription": "You are a Creator – magical, visionary and expressive.",
+    "fullReport": "As a Creator, your essence dances with possibility. You bring beauty from the invisible and shape divine energies into form. Your gift is to awaken inspiration and build what others can only dream."
+  }
+}
