@@ -1,15 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  overflow: hidden;
+  padding: 0;
   background: black;
   color: #fff;
   font-family: 'Cinzel', serif;
   text-align: center;
-  padding-top: 50px;
+  min-height: 100vh;
+  overflow: hidden;
 }
-.hidden {
-  display: none;
+
+.screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
 }
+
+#result-screen h2 {
+  margin-bottom: 1em;
+}
+
 button {
   background: linear-gradient(45deg, #9f00ff, #ffcc00);
   border: none;
@@ -19,7 +35,9 @@ button {
   cursor: pointer;
   border-radius: 8px;
   box-shadow: 0 0 20px #ffcc00;
+  margin-top: 20px;
 }
+
 button:hover {
-  box-shadow: 0 0 40px #ffcc00;
+  opacity: 0.8;
 }
